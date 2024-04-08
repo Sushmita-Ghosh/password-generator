@@ -23,11 +23,13 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen flex justify-center items-center text-center w-full p-10">
-      <div className="w-4/12">
+    <div className="h-auto bg-darkest-grey flex justify-center items-center text-center w-full p-10 ">
+      <div className="w-full md:w-9/12 lg:w-4/12">
         {/* Password Generator Text */}
 
-        <h1 className="text-xl text-gray p-4">Password Generator</h1>
+        <h1 className="text-2xl text-gray pb-8 font-semibold">
+          Password Generator
+        </h1>
 
         {/* Password placeholder & copy */}
 
