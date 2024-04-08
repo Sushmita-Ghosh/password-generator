@@ -22,13 +22,13 @@ To run this awesome project locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/password-generator-app.git
+git clone https://github.com/Sushmita-Ghosh/password-generator.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd password-generator-app
+cd password-generator
 ```
 
 3.Install dependencies:
