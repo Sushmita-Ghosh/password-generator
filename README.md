@@ -6,9 +6,9 @@ Welcome to the Password Generator web application built with React and Tailwind 
 - Generate random passwords with customizable criteria:
   - Choose password length (from 8 to 32 characters)
   - Include uppercase letters 🔠
-- Include lowercase letters 🔡
-- Include numbers 🔢
-- Include special characters 💥
+  - Include lowercase letters 🔡
+  - Include numbers 🔢
+  - Include special characters 💥
 - Copy generated passwords to clipboard with one click 📋
 - Responsive design for seamless use on desktop and mobile devices 📱
 
