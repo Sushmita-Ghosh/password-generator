@@ -21,6 +21,7 @@ Welcome to the Password Generator web application built with React and Tailwind 
 To run this awesome project locally, follow these steps:
 1. Clone the repository:
 
+
 ```bash
 git clone https://github.com/Sushmita-Ghosh/password-generator.git
 ```
@@ -54,6 +55,8 @@ npm run dev
   
 ## 🚀 Deployment
 The app is deployed [here](https://password-generator-sepia-omega.vercel.app/)
+![screencapture-password-generator-sepia-omega-vercel-app-2024-04-08-02_18_25](https://github.com/Sushmita-Ghosh/password-generator/assets/82622059/c3101f09-279f-45ad-9368-a77bb69e0f90)
+
 
 ## 🙌 Acknowledgments
 - [RoadsideCoder](https://www.youtube.com/watch?v=u9-x0sG-WQc&t=47s)
