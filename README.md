@@ -56,7 +56,7 @@ npm run dev
 The app is deployed [here](https://password-generator-sepia-omega.vercel.app/)
 
 ## 🙌 Acknowledgments
-- [Piyush Agarwal](https://www.youtube.com/watch?v=u9-x0sG-WQc&t=47s)
+- [RoadsideCoder](https://www.youtube.com/watch?v=u9-x0sG-WQc&t=47s)
 
 ---
 Enjoy using the Password Generator App! If you have any questions or feedback, feel free to reach out.
