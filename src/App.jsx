@@ -2,11 +2,14 @@ import iconCopy from "./assets/images/icon-copy.svg";
 import "./App.css";
 import { useState } from "react";
 import useGeneratedPassword from "./hooks/useGeneratedPassword";
+import StrengthBasedOnCheckbox from "./components/StrengthBasedOnCheckbox";
+// import Strength from "./components/Strength";
 
 function App() {
   // states - character length & checkbox data
   const [length, setLength] = useState(0);
   const [fill, setFill] = useState(0);
+
   // to set the text of the copy button
   const [copy, setCopy] = useState(false);
   const [checkboxData, setCheckboxData] = useState([
@@ -49,6 +52,12 @@ function App() {
     setTimeout(() => {
       setCopy(false);
     }, 1000);
+  };
+
+  // generate password
+  const handleGeneratePassword = () => {
+    // first generate password
+    generatePassword(length, checkboxData);
   };
 
   return (
@@ -135,21 +144,16 @@ function App() {
 
           <div className="flex justify-between items-center bg-darkest-grey p-4">
             <p className="text-gray uppercase font-bold text-lg">Strength</p>
-            <div className="flex items-center justify-center gap-4">
-              <p className="text-almost-white uppercase text-2xl">Weak</p>
-              <div className="bars flex justify-center items-center gap-2">
-                <div className="bar border border-almost-white w-2 h-10"></div>
-                <div className="bar border border-almost-white w-2 h-10"></div>
-                <div className="bar border border-almost-white w-2 h-10"></div>
-                <div className="bar border border-almost-white w-2 h-10"></div>
-              </div>
-            </div>
+            {/* Strength based on password length */}
+            {/* <Strength password={password} /> */}
+            {/* Strength based on checkbox data */}
+            <StrengthBasedOnCheckbox checkBoxData={checkboxData} />
           </div>
 
           {/* Password Generator Button */}
           <div className="pt-4">
             <button
-              onClick={() => generatePassword(length, checkboxData)}
+              onClick={handleGeneratePassword}
               className="p-4 border font-bold bg-neon-green hover:fill-neon-green text-darkest-grey hover:border-neon-green hover:bg-darkest-grey transition-transform hover:text-neon-green w-full  uppercase"
             >
               Generate
