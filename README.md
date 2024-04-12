@@ -15,7 +15,6 @@ Welcome to the Password Generator web application built with React and Tailwind 
 ## 🛠️ Technologies Used
 * React: The magic behind the interactive user interface
 * Tailwind CSS: Styling made easy with utility-first CSS
-* React Icons: For adding cool SVG icons to components
 
 ## 📥 Installation
 To run this awesome project locally, follow these steps:
@@ -51,7 +50,7 @@ npm run dev
 - Adjust the password length using the slider.
 - Select the checkboxes to include uppercase letters, lowercase letters, numbers, and/or special characters in your password.
 - Click the "Generate Password" button to create a random password based on your preferences.
-- Click "Copy to Clipboard" to easily copy the generated password.
+- Click "SVG symbol" to easily copy the generated password.
   
 ## 🚀 Deployment
 The app is deployed [here](https://password-generator-sepia-omega.vercel.app/)
